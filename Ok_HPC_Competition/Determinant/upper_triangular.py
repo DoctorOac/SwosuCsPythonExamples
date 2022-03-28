@@ -36,6 +36,9 @@ class upper_triangular:
                 squishing_factor_numerator / squishing_factor_denominator
 
                 #for column_inside_index in range(column_to_zero_index, 5):
+                '''Jeremy thinks this is the most painful line and need to make it run faster. numpy library that does this entire row operation all at once
+                We do not need the for loop.
+                '''
                 for column_inside_index in range(column_to_zero_index, column_count):
 
                     #print(f'\ncolumn_inside_index is: {column_inside_index}.')
